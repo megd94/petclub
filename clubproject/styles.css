@@ -1,0 +1,169 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+
+.head {
+    background-image: url("images/backround-image.jpg");
+    background-size: cover;
+    min-height: 60rem;
+    min-width: 10rem;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: lightcoral;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav li {
+    list-style: none;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.text-head {
+    text-align: center;
+    
+}
+
+.text-head h1 {
+    font-size: 4rem;
+    color: white;
+    -webkit-text-stroke: 0.5px lightblue;
+}
+
+.text-head h2 {
+    font-weight: 200;
+    font-style: italic;
+}
+
+.main-dogs {
+    background-color: lightblue;
+    text-align: center;
+    font-size: 2rem;
+    color: lightcoral;
+    padding: 1rem;
+    
+
+}
+.main-dogs h3 {
+    color: white;
+}
+
+.dog-photos {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.dog-photos img {
+    width: 25%;
+    margin: 1.5%;
+    
+    
+}
+
+.testimonials {
+    background-color: lightcoral;
+    padding-top: 1rem;
+}
+
+.testimonials-card {
+    background-color: lightblue;
+   
+    
+}
+.testimonials-header {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1rem;
+    color: white;
+}
+.testimonials-header h2 {
+    font-size: 3rem;
+}
+
+.testimonials-header p {
+    font-style: italic;
+}
+
+.testimonials-image  img {
+     width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+
+}
+
+.testimonials-text {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 1.5rem;
+    color: white;
+    font-style: italic;
+
+}
+
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    background-color: lightcoral;
+    color: white;
+    margin-bottom 0;
+}
+
+footer ul {
+ list-style-type: none;
+}
+footer li {
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+    color: white;
+}
+
+@media only screen and (max-width: 1048px) {
+    .head {
+        background-image: none;
+        background-color: lightcoral;
+
+    }
+}
+
+@media only screen and (max-width: 1048px) {
+    .dog-photos img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .text-head h1 {
+        font-size: 3rem;
+    }
+}
